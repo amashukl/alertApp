@@ -1,0 +1,20 @@
+{
+  "destinations": [
+    {
+      "ip":"192.168.1.12",
+      "appName":"abc.com"
+    },
+    {
+      "ip":"8.8.8.8",
+      "appName":"google.com"
+    },
+    {
+      "ip":"192.168.1.13",
+      "appName":"xyz.com"
+    },
+    {
+      "ip":"192.168.1.14",
+      "appName":"xyz.com"
+    }
+  ]
+}

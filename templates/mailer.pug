@@ -1,0 +1,20 @@
+doctype html
+html(lang='en')
+ head
+   title Pug
+ body
+ div Dear ICCI Network Team ,
+ p We have observed below applications are not reachable. Below are details for same :
+  table
+    thead
+      tr
+        th Application Name
+        th IP Address
+    tbody
+      each row in ips
+        tr
+          td=row.appName
+          td=row.ip
+
+div Regards
+div Palo Alto Automation Script
