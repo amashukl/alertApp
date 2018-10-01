@@ -8,7 +8,7 @@
     "start": "nodemon server.js",
     "dev": "NODE_ENV=development nodemon server.js",
     "preprod": "npm i",
-    "prod": "NODE_ENV=production nodemon server.js"
+    "prod": "NODE_ENV=production nodemon server.js &"
   },
   "author": "amarshuklas",
   "license": "ISC",

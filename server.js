@@ -25,14 +25,6 @@ if (process.env.NODE_ENV === 'development') {
   dotenv.config();
 }
 
-var smtpTransport = nodemailer.createTransport({
-  service: "gmail",
-  host: "smtp.gmail.com",
-  auth: {
-    user: "alerticicinetwork",
-    pass: "babakijai"
-  }
-});
 
 console.log(process.env.userName);
 const app = express();
@@ -60,7 +52,7 @@ app.get('/api/jobid', (req, res) => {
   })
 });
 
-app.get('/api/trafic', (req, res) => {
+app.get('/api/traffic', (req, res) => {
   sendAlert(req, res);
 })
 let count = 0;
